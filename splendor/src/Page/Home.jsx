@@ -4,6 +4,7 @@ import About from '../component/About'
 import Experiences from '../component/Experiences'
 import Services from '../component/Services'
 import Contact from '../component/Contact'
+import RoboticsDisplay from '../component/RoboticsDisplay'
 
 const Home = () => {
   return (
@@ -23,9 +24,14 @@ const Home = () => {
               <Services/>
       </div>
 
+       <div id='roboticsshowcase'>
+              <RoboticsDisplay />
+      </div>
+
       <div id='contact'>
               <Contact/>
       </div>
+     
     </div>
   )
 }
